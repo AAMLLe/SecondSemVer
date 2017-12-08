@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/AAMLLe/SecondSemVer/issues"
   },
-  "homepage": "https://github.com/AAMLLe/SecondSemVer#readme"
+  "homepage": "https://github.com/AAMLLe/SecondSemVer#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
 }
