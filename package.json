@@ -1,0 +1,24 @@
+{
+  "name": "demosemver",
+  "version": "1.0.0",
+  "description": "demo sem ver",
+  "main": "index.js",
+  "scripts": {
+    "test": "sv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AAMLLe/SecondSemVer.git"
+  },
+  "keywords": [
+    "demo",
+    "semantic",
+    "version"
+  ],
+  "author": "AL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AAMLLe/SecondSemVer/issues"
+  },
+  "homepage": "https://github.com/AAMLLe/SecondSemVer#readme"
+}
