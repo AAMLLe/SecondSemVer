@@ -11,5 +11,7 @@ before_install:
   - npm i -g npm@3.10.10
 before_script:
   - npm prune
+script:
+  - npm run test
 after_success:
   - npm run semantic-release
