@@ -5,5 +5,5 @@ exports.printMsg = function() {
 }
 
 exports.anotherMsg = function(msg) {
- console.log(msg.blue);
+ console.log(msg.cyan);
 }
