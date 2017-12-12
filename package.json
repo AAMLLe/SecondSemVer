@@ -16,6 +16,9 @@
     "semantic",
     "version"
   ],
+  "release": {
+  "branch": "master"
+},
   "author": "AL",
   "license": "ISC",
   "bugs": {
