@@ -4,6 +4,6 @@ exports.printMsg = function() {
  console.log("Here I am!".green);
 }
 
-exports.anotherMsg = function() {
- console.log("こんにちわ!".blue);
+exports.anotherMsg = function(msg) {
+ console.log(msg.blue);
 }
