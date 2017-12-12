@@ -28,6 +28,7 @@
       "parserOpts": {
         "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
       }
+    }
 },
   "author": "AL",
   "license": "ISC",
