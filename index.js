@@ -4,6 +4,6 @@ exports.printMsg = function() {
  console.log("Here I am!".green);
 }
 
-exports.anotherMsg = function(msg) {
- console.log(msg.cyan);
+exports.anotherMsg = function(msg, colorString) {
+ console.log(msg.colorString);
 }
