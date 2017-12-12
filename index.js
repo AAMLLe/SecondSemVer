@@ -5,5 +5,5 @@ exports.printMsg = function() {
 }
 
 exports.anotherMsg = function() {
- console.log("こんにちわ!".green);
+ console.log("こんにちわ!".cyan);
 }
