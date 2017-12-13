@@ -13,7 +13,7 @@ exports.anotherMsg = function(msg, color, repeatTimes) {
 }
 
 exports.welcomeMsg = function() {
-console.log("ふぁんど".green);
+console.log("ふぁんど".darkGreen);
 }
 
 exports.welcomeMsg = function(color) {
