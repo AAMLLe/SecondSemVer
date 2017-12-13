@@ -15,3 +15,7 @@ exports.anotherMsg = function(msg, color) {
 exports.welcomeMsg = function() {
 console.log("ふぁんど");
 }
+
+exports.welcomeMsg = function(color) {
+console.log("ふぁんど".color);
+}
