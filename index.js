@@ -8,7 +8,7 @@ exports.anotherMsg = function(msg) {
  console.log(msg.blue);
 }
 
-exports.anotherMsg = function(msg, color) {
+exports.anotherMsg = function(msg, color, repeatTimes) {
  console.log(msg.color);
 }
 
