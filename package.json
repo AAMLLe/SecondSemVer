@@ -1,11 +1,11 @@
 {
   "name": "demosemver",
-  "version": "1.1.1-semantically-released",
+  "version": "0.0.0-development",
   "description": "demo sem ver",
   "main": "index.js",
   "scripts": {
     "test": "node test/syncTest.js",
-    "semantic-release": "semantic-release pre && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -17,21 +17,41 @@
     "version"
   ],
   "release": {
-  "branch": "master",
-  "analyzeCommits": {
+    "branch": "master",
+    "analyzeCommits": {
       "preset": "angular",
       "releaseRules": [
-        {"type": "docs", "scope":"README", "release": "patch"},
-        {"type": "refactor", "release": "patch"},
-        {"type": "style", "release": "patch"},
-        {"type": "addition", "release": "minor"},
-        {"type": "breaking", "release": "major"}
+        {
+          "type": "docs",
+          "scope": "README",
+          "release": "patch"
+        },
+        {
+          "type": "refactor",
+          "release": "patch"
+        },
+        {
+          "type": "style",
+          "release": "patch"
+        },
+        {
+          "type": "addition",
+          "release": "minor"
+        },
+        {
+          "type": "breaking",
+          "release": "major"
+        }
       ],
       "parserOpts": {
-        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+        "noteKeywords": [
+          "BREAKING CHANGE",
+          "BREAKING CHANGES",
+          "BREAKING"
+        ]
       }
     }
-},
+  },
   "author": "AL",
   "license": "ISC",
   "bugs": {
