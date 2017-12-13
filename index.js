@@ -8,6 +8,10 @@ exports.anotherMsg = function(msg) {
  console.log(msg.blue);
 }
 
+exports.anotherMsg = function(msg, color) {
+ console.log(msg.color);
+}
+
 exports.welcomeMsg = function() {
 console.log("ふぁんど");
 }
