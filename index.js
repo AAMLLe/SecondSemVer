@@ -7,3 +7,7 @@ exports.printMsg = function() {
 exports.anotherMsg = function(msg) {
  console.log(msg.blue);
 }
+
+exports.welcomeMsg = function() {
+console.log("ふぁんど");
+}
