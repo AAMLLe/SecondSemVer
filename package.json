@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test/syncTest.js",
-    "tagging": "standard-version && git push --follow-tags origin master && chandler push"
+    "tagging": "npm run standard-version && git push --follow-tags origin master && chandler push"
   },
   "repository": {
     "type": "git",
