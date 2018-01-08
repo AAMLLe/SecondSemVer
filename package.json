@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test/syncTest.js",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "tagging": "git pull && npm run standard-version && git push --follow-tags origin master && chandler push"
   },
   "repository": {
     "type": "git",

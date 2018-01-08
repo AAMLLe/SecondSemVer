@@ -12,7 +12,9 @@ before_script:
 script:
   - npm run test
 after_success:
-  - npm run semantic-release
+  - npm i --save-dev standard-version
+  - gem install chandler
+  - npm run tagging
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
