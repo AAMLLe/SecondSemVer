@@ -17,5 +17,5 @@ console.log("ふぁんど".orange);
 }
 
 exports.welcomeMsg = function(color) {
-console.log("ふぁんど".color);
+// console.log("ふぁんど".color);
 }
