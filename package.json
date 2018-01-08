@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node test/syncTest.js",
-    "tagging": "echo Succeeded! && npm run standard-version && git push --follow-tags origin master && chandler push"
+    "tagging": "echo Succeeded! && npm run standard-version && git push --follow-tags origin master && chandler push",
+    "releaseTh": "standard-version"
   },
   "repository": {
     "type": "git",

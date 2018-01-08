@@ -13,7 +13,11 @@ script:
 after_success:
   - npm i --save-dev standard-version
   - gem install chandler
-  - npm run tagging
+  - echo Succeeded!
+  - npm run releaseTh
+  - git push --follow-tags origin master
+  - chandler push
+
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
