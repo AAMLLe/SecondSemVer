@@ -1,6 +1,6 @@
 {
   "name": "demosemver",
-  "version": "0.0.0-development",
+  "version": "1.2.2",
   "description": "demo sem ver",
   "main": "index.js",
   "scripts": {
