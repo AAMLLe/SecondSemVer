@@ -14,7 +14,7 @@ after_success:
   - npm i --save-dev standard-version
   - gem install chandler
   - echo Succeeded!
-  - bash - x ./3excB.sh
+  - bash -x ./3excB.sh
 
 branches:
   except:
