@@ -14,9 +14,7 @@ after_success:
   - npm i --save-dev standard-version
   - gem install chandler
   - echo Succeeded!
-  - npm run releaseTh
-  - git push --follow-tags origin master
-  - chandler push
+  - ./3excB.sh
 
 branches:
   except:
