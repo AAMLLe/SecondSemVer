@@ -9,6 +9,7 @@ commit_files() {
 	ls -la
   # git checkout -b master
   git add CHANGELOG.md
+  git add package.json
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER [skip ci]"
   git status
 }
