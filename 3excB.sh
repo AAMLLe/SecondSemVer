@@ -8,6 +8,7 @@ commit_files() {
   # git checkout -b master
   git add CHANGELOG.md
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER [skip ci]"
+  git status
 }
 git rm -r --cached node_modules/
 # git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed [skip ci] "
