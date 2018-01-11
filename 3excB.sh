@@ -2,6 +2,7 @@
 # execute using backticks
 git status
 git checkout -b master
+rm CHANGELOG.md
 echo `npm run releaseTh`
 
 commit_files() {
