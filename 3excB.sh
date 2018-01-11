@@ -4,6 +4,7 @@ git checkout -b master
 echo `npm run releaseTh`
 
 commit_files() {
+	ls -la
   # git checkout -b master
   git add CHANGELOG.md
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER [skip ci]"
