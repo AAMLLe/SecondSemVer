@@ -1,5 +1,6 @@
 #!/bin/bash
 # execute using backticks
+git status
 git checkout -b master
 echo `npm run releaseTh`
 
